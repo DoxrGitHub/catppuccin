@@ -16,10 +16,10 @@ body::before {
  width: 110%;
  height: 110%;
  background-image: linear-gradient(to right, 
-                                      #eff1f5 0%, #eff1f5 20%, 
-                                      #303446 20%, #303446 44%, 
-                                      #24273a 44%, #24273a 68%, 
-                                      #1e1e2e 68%, #1e1e2e 100%);
+                                      #eff1f5 0%, #eff1f5 13%, 
+                                      #303446 13%, #303446 38%, 
+                                      #24273a 38%, #24273a 60%, 
+                                      #1e1e2e 60%, #1e1e2e 100%);
  background-size: 100% 100%;
  background-repeat: no-repeat;
  transform: skewX(-30deg);
