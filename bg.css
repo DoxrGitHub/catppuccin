@@ -3,23 +3,25 @@ body {
  overflow: hidden;
  width: 100%;
  background-color: #eff1f5;
+ margin: 0;
+ margin-left: 5%;
+ margin-top: 1%;
 }
 
 body::before {
  content: "";
  position: absolute;
  top: -10%;
- left: -10%;
+ left: 10%;
  width: 110%;
  height: 110%;
  background-image: linear-gradient(to right, 
                                       #eff1f5 0%, #eff1f5 20%, 
-                                      #303446 20%, #303446 40%, 
-                                      #24273a 40%, #24273a 60%, 
-                                      #1e1e2e 60%, #1e1e2e 80%, 
-                                      #11111b 80%, #11111b 100%);
+                                      #303446 20%, #303446 44%, 
+                                      #24273a 44%, #24273a 68%, 
+                                      #1e1e2e 68%, #1e1e2e 100%);
  background-size: 100% 100%;
  background-repeat: no-repeat;
- transform: skewX(-10deg);
+ transform: skewX(-30deg);
  z-index: -1;
 }
